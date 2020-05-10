@@ -55,7 +55,7 @@ void mouseReleased(){
 }
 
 void mouseDragged(){
-     if(mousePressed){
+     if(mousePressed && n!=-1){
        tmp = lista.get(n);
      	 tmp.x = mouseX;
      	 tmp.y = mouseY;
